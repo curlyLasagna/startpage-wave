@@ -151,9 +151,26 @@ a, a:visited, a:hover {
 	bottom: -3px;
 }
 
+.clock_btn {
+	background-image: url(clock.svg);
+	background-position:center center;
+	fill: white;
+	content:"";
+	bottom: 5px;
+	width: 30px;
+	height: 30px;
+	bottom: 50%;
+	position: relative;
+}
+
+.time-container {
+	display: flex;
+	align-items: baseline;
+}
+
 /* ------------- WAVE ANIMATION ------------- */ 
 
-.wave-container .wave{
+/* .wave-container .wave{
 	position:absolute;
 	bottom:0;
 	left:0;
@@ -208,7 +225,7 @@ a, a:visited, a:hover {
 	100%{
 		background-position-x: -990px;
 	}
-}
+} */
 
 /* ------------- MEDIA QUERY ------------- */ 
 
